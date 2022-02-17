@@ -1,0 +1,25 @@
+a=0
+b=1
+sum=0
+n=int(input('enter n value'))
+for i in range(1,n+1):
+    c=a+b
+    print(c)
+    a=b
+    b=c
+    sum=sum+c
+print("The sum of febnocci series=",sum)
+
+Output:
+enter n value
+
+10 
+
+1 2 3 5 8 13 21 34 55 89 
+The sum of febnocci series=231 
+
+** Process exited - Return Code: 0 **
+
+Press Enter to exit terminal
+
+
